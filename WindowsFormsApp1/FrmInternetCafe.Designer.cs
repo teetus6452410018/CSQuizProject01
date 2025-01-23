@@ -461,8 +461,9 @@
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.label1);
+            this.MaximizeBox = false;
             this.Name = "FrmInternetCafe";
-            this.Text = "FrmInternetCafe";
+            this.Text = "โปรแกรม Quiz 1 ";
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
             this.groupBox2.ResumeLayout(false);
