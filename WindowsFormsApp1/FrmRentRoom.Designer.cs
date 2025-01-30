@@ -30,32 +30,32 @@
         {
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
-            this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
+            this.dtpDatePay = new System.Windows.Forms.DateTimePicker();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.tbSurname = new System.Windows.Forms.TextBox();
             this.label6 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.tbName = new System.Windows.Forms.TextBox();
             this.label5 = new System.Windows.Forms.Label();
-            this.radioButton3 = new System.Windows.Forms.RadioButton();
-            this.radioButton2 = new System.Windows.Forms.RadioButton();
-            this.radioButton1 = new System.Windows.Forms.RadioButton();
+            this.rdMiss = new System.Windows.Forms.RadioButton();
+            this.rdMrs = new System.Windows.Forms.RadioButton();
+            this.rdMr = new System.Windows.Forms.RadioButton();
             this.label4 = new System.Windows.Forms.Label();
-            this.maskedTextBox1 = new System.Windows.Forms.MaskedTextBox();
+            this.mtbIdCard = new System.Windows.Forms.MaskedTextBox();
             this.label3 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
-            this.checkBox1 = new System.Windows.Forms.CheckBox();
-            this.checkBox2 = new System.Windows.Forms.CheckBox();
-            this.checkBox3 = new System.Windows.Forms.CheckBox();
-            this.checkBox4 = new System.Windows.Forms.CheckBox();
+            this.cbbRoomType = new System.Windows.Forms.ComboBox();
+            this.cbPhone = new System.Windows.Forms.CheckBox();
+            this.cbInternet = new System.Windows.Forms.CheckBox();
+            this.cbWater = new System.Windows.Forms.CheckBox();
+            this.cbElectric = new System.Windows.Forms.CheckBox();
             this.label8 = new System.Windows.Forms.Label();
             this.label9 = new System.Windows.Forms.Label();
             this.label10 = new System.Windows.Forms.Label();
             this.label11 = new System.Windows.Forms.Label();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.textBox4 = new System.Windows.Forms.TextBox();
-            this.textBox5 = new System.Windows.Forms.TextBox();
-            this.textBox6 = new System.Windows.Forms.TextBox();
+            this.tbPhone = new System.Windows.Forms.TextBox();
+            this.tbInternet = new System.Windows.Forms.TextBox();
+            this.tbWater = new System.Windows.Forms.TextBox();
+            this.tbElectric = new System.Windows.Forms.TextBox();
             this.label12 = new System.Windows.Forms.Label();
             this.label13 = new System.Windows.Forms.Label();
             this.label14 = new System.Windows.Forms.Label();
@@ -68,14 +68,14 @@
             this.label21 = new System.Windows.Forms.Label();
             this.label22 = new System.Windows.Forms.Label();
             this.label23 = new System.Windows.Forms.Label();
-            this.label24 = new System.Windows.Forms.Label();
-            this.label25 = new System.Windows.Forms.Label();
-            this.label26 = new System.Windows.Forms.Label();
-            this.label27 = new System.Windows.Forms.Label();
-            this.label28 = new System.Windows.Forms.Label();
-            this.label29 = new System.Windows.Forms.Label();
-            this.label30 = new System.Windows.Forms.Label();
-            this.label31 = new System.Windows.Forms.Label();
+            this.lbDatePay = new System.Windows.Forms.Label();
+            this.lbIdCard = new System.Windows.Forms.Label();
+            this.lbFullname = new System.Windows.Forms.Label();
+            this.lbRoomType = new System.Windows.Forms.Label();
+            this.lbPhone = new System.Windows.Forms.Label();
+            this.lbInternet = new System.Windows.Forms.Label();
+            this.lbWater = new System.Windows.Forms.Label();
+            this.lbElectric = new System.Windows.Forms.Label();
             this.label32 = new System.Windows.Forms.Label();
             this.label33 = new System.Windows.Forms.Label();
             this.label34 = new System.Windows.Forms.Label();
@@ -84,19 +84,19 @@
             this.label37 = new System.Windows.Forms.Label();
             this.label38 = new System.Windows.Forms.Label();
             this.label39 = new System.Windows.Forms.Label();
-            this.label40 = new System.Windows.Forms.Label();
+            this.lbPhonePrice = new System.Windows.Forms.Label();
             this.label41 = new System.Windows.Forms.Label();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
-            this.label49 = new System.Windows.Forms.Label();
+            this.lbShowResult = new System.Windows.Forms.Label();
             this.label48 = new System.Windows.Forms.Label();
             this.label46 = new System.Windows.Forms.Label();
-            this.label47 = new System.Windows.Forms.Label();
+            this.lbElecPrice = new System.Windows.Forms.Label();
             this.label44 = new System.Windows.Forms.Label();
-            this.label45 = new System.Windows.Forms.Label();
+            this.lbWaterPrice = new System.Windows.Forms.Label();
             this.label42 = new System.Windows.Forms.Label();
-            this.label43 = new System.Windows.Forms.Label();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button1 = new System.Windows.Forms.Button();
+            this.lbInternetPrice = new System.Windows.Forms.Label();
+            this.btCancel = new System.Windows.Forms.Button();
+            this.btCal = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.SuspendLayout();
@@ -121,24 +121,24 @@
             this.label2.Text = "วันที่ชำระ";
             this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             // 
-            // dateTimePicker1
+            // dtpDatePay
             // 
-            this.dateTimePicker1.Location = new System.Drawing.Point(263, 101);
-            this.dateTimePicker1.Name = "dateTimePicker1";
-            this.dateTimePicker1.Size = new System.Drawing.Size(200, 20);
-            this.dateTimePicker1.TabIndex = 2;
+            this.dtpDatePay.Location = new System.Drawing.Point(263, 101);
+            this.dtpDatePay.Name = "dtpDatePay";
+            this.dtpDatePay.Size = new System.Drawing.Size(200, 20);
+            this.dtpDatePay.TabIndex = 2;
             // 
             // groupBox1
             // 
-            this.groupBox1.Controls.Add(this.textBox2);
+            this.groupBox1.Controls.Add(this.tbSurname);
             this.groupBox1.Controls.Add(this.label6);
-            this.groupBox1.Controls.Add(this.textBox1);
+            this.groupBox1.Controls.Add(this.tbName);
             this.groupBox1.Controls.Add(this.label5);
-            this.groupBox1.Controls.Add(this.radioButton3);
-            this.groupBox1.Controls.Add(this.radioButton2);
-            this.groupBox1.Controls.Add(this.radioButton1);
+            this.groupBox1.Controls.Add(this.rdMiss);
+            this.groupBox1.Controls.Add(this.rdMrs);
+            this.groupBox1.Controls.Add(this.rdMr);
             this.groupBox1.Controls.Add(this.label4);
-            this.groupBox1.Controls.Add(this.maskedTextBox1);
+            this.groupBox1.Controls.Add(this.mtbIdCard);
             this.groupBox1.Controls.Add(this.label3);
             this.groupBox1.Location = new System.Drawing.Point(31, 135);
             this.groupBox1.Name = "groupBox1";
@@ -147,12 +147,12 @@
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "ข้อมูลผู้เช่า";
             // 
-            // textBox2
+            // tbSurname
             // 
-            this.textBox2.Location = new System.Drawing.Point(259, 102);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(173, 20);
-            this.textBox2.TabIndex = 13;
+            this.tbSurname.Location = new System.Drawing.Point(259, 102);
+            this.tbSurname.Name = "tbSurname";
+            this.tbSurname.Size = new System.Drawing.Size(173, 20);
+            this.tbSurname.TabIndex = 13;
             // 
             // label6
             // 
@@ -163,12 +163,12 @@
             this.label6.Text = "นามสกุล";
             this.label6.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             // 
-            // textBox1
+            // tbName
             // 
-            this.textBox1.Location = new System.Drawing.Point(58, 102);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(138, 20);
-            this.textBox1.TabIndex = 11;
+            this.tbName.Location = new System.Drawing.Point(58, 102);
+            this.tbName.Name = "tbName";
+            this.tbName.Size = new System.Drawing.Size(138, 20);
+            this.tbName.TabIndex = 11;
             // 
             // label5
             // 
@@ -179,38 +179,37 @@
             this.label5.Text = "ชื่อ";
             this.label5.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             // 
-            // radioButton3
+            // rdMiss
             // 
-            this.radioButton3.AutoSize = true;
-            this.radioButton3.Location = new System.Drawing.Point(281, 69);
-            this.radioButton3.Name = "radioButton3";
-            this.radioButton3.Size = new System.Drawing.Size(60, 17);
-            this.radioButton3.TabIndex = 9;
-            this.radioButton3.TabStop = true;
-            this.radioButton3.Text = "นางสาว";
-            this.radioButton3.UseVisualStyleBackColor = true;
+            this.rdMiss.AutoSize = true;
+            this.rdMiss.Location = new System.Drawing.Point(281, 69);
+            this.rdMiss.Name = "rdMiss";
+            this.rdMiss.Size = new System.Drawing.Size(60, 17);
+            this.rdMiss.TabIndex = 9;
+            this.rdMiss.Text = "นางสาว";
+            this.rdMiss.UseVisualStyleBackColor = true;
             // 
-            // radioButton2
+            // rdMrs
             // 
-            this.radioButton2.AutoSize = true;
-            this.radioButton2.Location = new System.Drawing.Point(217, 69);
-            this.radioButton2.Name = "radioButton2";
-            this.radioButton2.Size = new System.Drawing.Size(43, 17);
-            this.radioButton2.TabIndex = 8;
-            this.radioButton2.TabStop = true;
-            this.radioButton2.Text = "นาง";
-            this.radioButton2.UseVisualStyleBackColor = true;
+            this.rdMrs.AutoSize = true;
+            this.rdMrs.Location = new System.Drawing.Point(217, 69);
+            this.rdMrs.Name = "rdMrs";
+            this.rdMrs.Size = new System.Drawing.Size(43, 17);
+            this.rdMrs.TabIndex = 8;
+            this.rdMrs.Text = "นาง";
+            this.rdMrs.UseVisualStyleBackColor = true;
             // 
-            // radioButton1
+            // rdMr
             // 
-            this.radioButton1.AutoSize = true;
-            this.radioButton1.Location = new System.Drawing.Point(151, 69);
-            this.radioButton1.Name = "radioButton1";
-            this.radioButton1.Size = new System.Drawing.Size(45, 17);
-            this.radioButton1.TabIndex = 7;
-            this.radioButton1.TabStop = true;
-            this.radioButton1.Text = "นาย";
-            this.radioButton1.UseVisualStyleBackColor = true;
+            this.rdMr.AutoSize = true;
+            this.rdMr.Checked = true;
+            this.rdMr.Location = new System.Drawing.Point(151, 69);
+            this.rdMr.Name = "rdMr";
+            this.rdMr.Size = new System.Drawing.Size(45, 17);
+            this.rdMr.TabIndex = 7;
+            this.rdMr.TabStop = true;
+            this.rdMr.Text = "นาย";
+            this.rdMr.UseVisualStyleBackColor = true;
             // 
             // label4
             // 
@@ -221,13 +220,13 @@
             this.label4.Text = "คำนำหน้า";
             this.label4.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             // 
-            // maskedTextBox1
+            // mtbIdCard
             // 
-            this.maskedTextBox1.Location = new System.Drawing.Point(137, 29);
-            this.maskedTextBox1.Mask = "0-0000-00000-00-0";
-            this.maskedTextBox1.Name = "maskedTextBox1";
-            this.maskedTextBox1.Size = new System.Drawing.Size(99, 20);
-            this.maskedTextBox1.TabIndex = 5;
+            this.mtbIdCard.Location = new System.Drawing.Point(137, 29);
+            this.mtbIdCard.Mask = "0-0000-00000-00-0";
+            this.mtbIdCard.Name = "mtbIdCard";
+            this.mtbIdCard.Size = new System.Drawing.Size(99, 20);
+            this.mtbIdCard.TabIndex = 5;
             // 
             // label3
             // 
@@ -247,60 +246,65 @@
             this.label7.Text = "ประเภทห้องพัก";
             this.label7.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             // 
-            // comboBox1
+            // cbbRoomType
             // 
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Items.AddRange(new object[] {
+            this.cbbRoomType.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.cbbRoomType.FormattingEnabled = true;
+            this.cbbRoomType.Items.AddRange(new object[] {
             "ห้องแอร์ (VIP) 4500 บาท",
             "ห้องแอร์ (ธรรมดา) 4000 บาท",
             "ห้องพัดลม (VIP) 3500 บาท",
             "ห้องพัดลม (ธรรมดา) 3000 บาท",
             "",
             ""});
-            this.comboBox1.Location = new System.Drawing.Point(168, 294);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(155, 21);
-            this.comboBox1.TabIndex = 15;
+            this.cbbRoomType.Location = new System.Drawing.Point(168, 294);
+            this.cbbRoomType.Name = "cbbRoomType";
+            this.cbbRoomType.Size = new System.Drawing.Size(155, 21);
+            this.cbbRoomType.TabIndex = 15;
             // 
-            // checkBox1
+            // cbPhone
             // 
-            this.checkBox1.AutoSize = true;
-            this.checkBox1.Location = new System.Drawing.Point(36, 330);
-            this.checkBox1.Name = "checkBox1";
-            this.checkBox1.Size = new System.Drawing.Size(153, 17);
-            this.checkBox1.TabIndex = 16;
-            this.checkBox1.Text = "โทรศัพท์ (นาทีละ 1.50 บาท)";
-            this.checkBox1.UseVisualStyleBackColor = true;
+            this.cbPhone.AutoSize = true;
+            this.cbPhone.Location = new System.Drawing.Point(36, 330);
+            this.cbPhone.Name = "cbPhone";
+            this.cbPhone.Size = new System.Drawing.Size(153, 17);
+            this.cbPhone.TabIndex = 16;
+            this.cbPhone.Text = "โทรศัพท์ (นาทีละ 1.50 บาท)";
+            this.cbPhone.UseVisualStyleBackColor = true;
+            this.cbPhone.CheckedChanged += new System.EventHandler(this.cbPhone_CheckedChanged);
             // 
-            // checkBox2
+            // cbInternet
             // 
-            this.checkBox2.AutoSize = true;
-            this.checkBox2.Location = new System.Drawing.Point(36, 362);
-            this.checkBox2.Name = "checkBox2";
-            this.checkBox2.Size = new System.Drawing.Size(170, 17);
-            this.checkBox2.TabIndex = 17;
-            this.checkBox2.Text = "อินเตอร์เน็ต (นาทีละ 0.05 บาท)";
-            this.checkBox2.UseVisualStyleBackColor = true;
+            this.cbInternet.AutoSize = true;
+            this.cbInternet.Location = new System.Drawing.Point(36, 362);
+            this.cbInternet.Name = "cbInternet";
+            this.cbInternet.Size = new System.Drawing.Size(170, 17);
+            this.cbInternet.TabIndex = 17;
+            this.cbInternet.Text = "อินเตอร์เน็ต (นาทีละ 0.05 บาท)";
+            this.cbInternet.UseVisualStyleBackColor = true;
+            this.cbInternet.CheckedChanged += new System.EventHandler(this.cbInternet_CheckedChanged);
             // 
-            // checkBox3
+            // cbWater
             // 
-            this.checkBox3.AutoSize = true;
-            this.checkBox3.Location = new System.Drawing.Point(36, 394);
-            this.checkBox3.Name = "checkBox3";
-            this.checkBox3.Size = new System.Drawing.Size(139, 17);
-            this.checkBox3.TabIndex = 18;
-            this.checkBox3.Text = "น้ำ (หน่วยละ 12.50 บาท)";
-            this.checkBox3.UseVisualStyleBackColor = true;
+            this.cbWater.AutoSize = true;
+            this.cbWater.Location = new System.Drawing.Point(36, 394);
+            this.cbWater.Name = "cbWater";
+            this.cbWater.Size = new System.Drawing.Size(139, 17);
+            this.cbWater.TabIndex = 18;
+            this.cbWater.Text = "น้ำ (หน่วยละ 12.50 บาท)";
+            this.cbWater.UseVisualStyleBackColor = true;
+            this.cbWater.CheckedChanged += new System.EventHandler(this.cbWater_CheckedChanged);
             // 
-            // checkBox4
+            // cbElectric
             // 
-            this.checkBox4.AutoSize = true;
-            this.checkBox4.Location = new System.Drawing.Point(36, 425);
-            this.checkBox4.Name = "checkBox4";
-            this.checkBox4.Size = new System.Drawing.Size(153, 17);
-            this.checkBox4.TabIndex = 19;
-            this.checkBox4.Text = "ไฟฟ้า (หน่วยละ 15.75 บาท)";
-            this.checkBox4.UseVisualStyleBackColor = true;
+            this.cbElectric.AutoSize = true;
+            this.cbElectric.Location = new System.Drawing.Point(36, 425);
+            this.cbElectric.Name = "cbElectric";
+            this.cbElectric.Size = new System.Drawing.Size(153, 17);
+            this.cbElectric.TabIndex = 19;
+            this.cbElectric.Text = "ไฟฟ้า (หน่วยละ 15.75 บาท)";
+            this.cbElectric.UseVisualStyleBackColor = true;
+            this.cbElectric.CheckedChanged += new System.EventHandler(this.cbElectric_CheckedChanged);
             // 
             // label8
             // 
@@ -338,33 +342,41 @@
             this.label11.Text = "จำนวนที่ใช้";
             this.label11.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             // 
-            // textBox3
+            // tbPhone
             // 
-            this.textBox3.Location = new System.Drawing.Point(312, 328);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(73, 20);
-            this.textBox3.TabIndex = 14;
+            this.tbPhone.Enabled = false;
+            this.tbPhone.Location = new System.Drawing.Point(312, 328);
+            this.tbPhone.Name = "tbPhone";
+            this.tbPhone.Size = new System.Drawing.Size(73, 20);
+            this.tbPhone.TabIndex = 14;
+            this.tbPhone.KeyUp += new System.Windows.Forms.KeyEventHandler(this.tbPhone_KeyUp);
             // 
-            // textBox4
+            // tbInternet
             // 
-            this.textBox4.Location = new System.Drawing.Point(312, 359);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(73, 20);
-            this.textBox4.TabIndex = 24;
+            this.tbInternet.Enabled = false;
+            this.tbInternet.Location = new System.Drawing.Point(312, 359);
+            this.tbInternet.Name = "tbInternet";
+            this.tbInternet.Size = new System.Drawing.Size(73, 20);
+            this.tbInternet.TabIndex = 24;
+            this.tbInternet.KeyUp += new System.Windows.Forms.KeyEventHandler(this.tbInternet_KeyUp);
             // 
-            // textBox5
+            // tbWater
             // 
-            this.textBox5.Location = new System.Drawing.Point(312, 389);
-            this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(73, 20);
-            this.textBox5.TabIndex = 25;
+            this.tbWater.Enabled = false;
+            this.tbWater.Location = new System.Drawing.Point(312, 389);
+            this.tbWater.Name = "tbWater";
+            this.tbWater.Size = new System.Drawing.Size(73, 20);
+            this.tbWater.TabIndex = 25;
+            this.tbWater.KeyUp += new System.Windows.Forms.KeyEventHandler(this.tbWater_KeyUp);
             // 
-            // textBox6
+            // tbElectric
             // 
-            this.textBox6.Location = new System.Drawing.Point(312, 422);
-            this.textBox6.Name = "textBox6";
-            this.textBox6.Size = new System.Drawing.Size(73, 20);
-            this.textBox6.TabIndex = 26;
+            this.tbElectric.Enabled = false;
+            this.tbElectric.Location = new System.Drawing.Point(312, 422);
+            this.tbElectric.Name = "tbElectric";
+            this.tbElectric.Size = new System.Drawing.Size(73, 20);
+            this.tbElectric.TabIndex = 26;
+            this.tbElectric.KeyUp += new System.Windows.Forms.KeyEventHandler(this.tbElectric_KeyUp);
             // 
             // label12
             // 
@@ -474,101 +486,101 @@
             this.label23.Text = "ไฟฟ้า";
             this.label23.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             // 
-            // label24
+            // lbDatePay
             // 
-            this.label24.BackColor = System.Drawing.Color.Lime;
-            this.label24.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label24.ForeColor = System.Drawing.Color.Red;
-            this.label24.Location = new System.Drawing.Point(128, 26);
-            this.label24.Name = "label24";
-            this.label24.Size = new System.Drawing.Size(154, 24);
-            this.label24.TabIndex = 37;
-            this.label24.Text = "-";
-            this.label24.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lbDatePay.BackColor = System.Drawing.Color.Lime;
+            this.lbDatePay.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbDatePay.ForeColor = System.Drawing.Color.Red;
+            this.lbDatePay.Location = new System.Drawing.Point(128, 26);
+            this.lbDatePay.Name = "lbDatePay";
+            this.lbDatePay.Size = new System.Drawing.Size(154, 24);
+            this.lbDatePay.TabIndex = 37;
+            this.lbDatePay.Text = "-";
+            this.lbDatePay.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
-            // label25
+            // lbIdCard
             // 
-            this.label25.BackColor = System.Drawing.Color.Lime;
-            this.label25.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label25.ForeColor = System.Drawing.Color.Red;
-            this.label25.Location = new System.Drawing.Point(128, 59);
-            this.label25.Name = "label25";
-            this.label25.Size = new System.Drawing.Size(154, 24);
-            this.label25.TabIndex = 38;
-            this.label25.Text = "-";
-            this.label25.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lbIdCard.BackColor = System.Drawing.Color.Lime;
+            this.lbIdCard.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbIdCard.ForeColor = System.Drawing.Color.Red;
+            this.lbIdCard.Location = new System.Drawing.Point(128, 59);
+            this.lbIdCard.Name = "lbIdCard";
+            this.lbIdCard.Size = new System.Drawing.Size(154, 24);
+            this.lbIdCard.TabIndex = 38;
+            this.lbIdCard.Text = "-";
+            this.lbIdCard.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
-            // label26
+            // lbFullname
             // 
-            this.label26.BackColor = System.Drawing.Color.Lime;
-            this.label26.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label26.ForeColor = System.Drawing.Color.Red;
-            this.label26.Location = new System.Drawing.Point(128, 92);
-            this.label26.Name = "label26";
-            this.label26.Size = new System.Drawing.Size(154, 24);
-            this.label26.TabIndex = 39;
-            this.label26.Text = "-";
-            this.label26.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lbFullname.BackColor = System.Drawing.Color.Lime;
+            this.lbFullname.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbFullname.ForeColor = System.Drawing.Color.Red;
+            this.lbFullname.Location = new System.Drawing.Point(128, 92);
+            this.lbFullname.Name = "lbFullname";
+            this.lbFullname.Size = new System.Drawing.Size(154, 24);
+            this.lbFullname.TabIndex = 39;
+            this.lbFullname.Text = "-";
+            this.lbFullname.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
-            // label27
+            // lbRoomType
             // 
-            this.label27.BackColor = System.Drawing.Color.Lime;
-            this.label27.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label27.ForeColor = System.Drawing.Color.Red;
-            this.label27.Location = new System.Drawing.Point(128, 128);
-            this.label27.Name = "label27";
-            this.label27.Size = new System.Drawing.Size(154, 24);
-            this.label27.TabIndex = 40;
-            this.label27.Text = "-";
-            this.label27.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lbRoomType.BackColor = System.Drawing.Color.Lime;
+            this.lbRoomType.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbRoomType.ForeColor = System.Drawing.Color.Red;
+            this.lbRoomType.Location = new System.Drawing.Point(128, 128);
+            this.lbRoomType.Name = "lbRoomType";
+            this.lbRoomType.Size = new System.Drawing.Size(154, 24);
+            this.lbRoomType.TabIndex = 40;
+            this.lbRoomType.Text = "-";
+            this.lbRoomType.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
-            // label28
+            // lbPhone
             // 
-            this.label28.BackColor = System.Drawing.Color.Lime;
-            this.label28.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label28.ForeColor = System.Drawing.Color.Red;
-            this.label28.Location = new System.Drawing.Point(128, 168);
-            this.label28.Name = "label28";
-            this.label28.Size = new System.Drawing.Size(42, 24);
-            this.label28.TabIndex = 41;
-            this.label28.Text = "0";
-            this.label28.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.lbPhone.BackColor = System.Drawing.Color.Lime;
+            this.lbPhone.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbPhone.ForeColor = System.Drawing.Color.Red;
+            this.lbPhone.Location = new System.Drawing.Point(128, 168);
+            this.lbPhone.Name = "lbPhone";
+            this.lbPhone.Size = new System.Drawing.Size(42, 24);
+            this.lbPhone.TabIndex = 41;
+            this.lbPhone.Text = "0";
+            this.lbPhone.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             // 
-            // label29
+            // lbInternet
             // 
-            this.label29.BackColor = System.Drawing.Color.Lime;
-            this.label29.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label29.ForeColor = System.Drawing.Color.Red;
-            this.label29.Location = new System.Drawing.Point(128, 207);
-            this.label29.Name = "label29";
-            this.label29.Size = new System.Drawing.Size(42, 24);
-            this.label29.TabIndex = 42;
-            this.label29.Text = "0";
-            this.label29.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.lbInternet.BackColor = System.Drawing.Color.Lime;
+            this.lbInternet.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbInternet.ForeColor = System.Drawing.Color.Red;
+            this.lbInternet.Location = new System.Drawing.Point(128, 207);
+            this.lbInternet.Name = "lbInternet";
+            this.lbInternet.Size = new System.Drawing.Size(42, 24);
+            this.lbInternet.TabIndex = 42;
+            this.lbInternet.Text = "0";
+            this.lbInternet.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             // 
-            // label30
+            // lbWater
             // 
-            this.label30.BackColor = System.Drawing.Color.Lime;
-            this.label30.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label30.ForeColor = System.Drawing.Color.Red;
-            this.label30.Location = new System.Drawing.Point(128, 243);
-            this.label30.Name = "label30";
-            this.label30.Size = new System.Drawing.Size(42, 24);
-            this.label30.TabIndex = 43;
-            this.label30.Text = "0";
-            this.label30.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.lbWater.BackColor = System.Drawing.Color.Lime;
+            this.lbWater.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbWater.ForeColor = System.Drawing.Color.Red;
+            this.lbWater.Location = new System.Drawing.Point(128, 243);
+            this.lbWater.Name = "lbWater";
+            this.lbWater.Size = new System.Drawing.Size(42, 24);
+            this.lbWater.TabIndex = 43;
+            this.lbWater.Text = "0";
+            this.lbWater.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             // 
-            // label31
+            // lbElectric
             // 
-            this.label31.BackColor = System.Drawing.Color.Lime;
-            this.label31.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label31.ForeColor = System.Drawing.Color.Red;
-            this.label31.Location = new System.Drawing.Point(128, 277);
-            this.label31.Name = "label31";
-            this.label31.Size = new System.Drawing.Size(42, 24);
-            this.label31.TabIndex = 44;
-            this.label31.Text = "0";
-            this.label31.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.lbElectric.BackColor = System.Drawing.Color.Lime;
+            this.lbElectric.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbElectric.ForeColor = System.Drawing.Color.Red;
+            this.lbElectric.Location = new System.Drawing.Point(128, 277);
+            this.lbElectric.Name = "lbElectric";
+            this.lbElectric.Size = new System.Drawing.Size(42, 24);
+            this.lbElectric.TabIndex = 44;
+            this.lbElectric.Text = "0";
+            this.lbElectric.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             // 
             // label32
             // 
@@ -642,17 +654,17 @@
             this.label39.Text = "เป็นเงิน";
             this.label39.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
-            // label40
+            // lbPhonePrice
             // 
-            this.label40.BackColor = System.Drawing.Color.Lime;
-            this.label40.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label40.ForeColor = System.Drawing.Color.Red;
-            this.label40.Location = new System.Drawing.Point(265, 167);
-            this.label40.Name = "label40";
-            this.label40.Size = new System.Drawing.Size(59, 24);
-            this.label40.TabIndex = 50;
-            this.label40.Text = "0.00";
-            this.label40.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.lbPhonePrice.BackColor = System.Drawing.Color.Lime;
+            this.lbPhonePrice.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbPhonePrice.ForeColor = System.Drawing.Color.Red;
+            this.lbPhonePrice.Location = new System.Drawing.Point(265, 167);
+            this.lbPhonePrice.Name = "lbPhonePrice";
+            this.lbPhonePrice.Size = new System.Drawing.Size(59, 24);
+            this.lbPhonePrice.TabIndex = 50;
+            this.lbPhonePrice.Text = "0.00";
+            this.lbPhonePrice.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             // 
             // label41
             // 
@@ -665,16 +677,16 @@
             // 
             // groupBox2
             // 
-            this.groupBox2.Controls.Add(this.label49);
+            this.groupBox2.Controls.Add(this.lbShowResult);
             this.groupBox2.Controls.Add(this.label48);
             this.groupBox2.Controls.Add(this.label46);
-            this.groupBox2.Controls.Add(this.label47);
+            this.groupBox2.Controls.Add(this.lbElecPrice);
             this.groupBox2.Controls.Add(this.label44);
-            this.groupBox2.Controls.Add(this.label45);
+            this.groupBox2.Controls.Add(this.lbWaterPrice);
             this.groupBox2.Controls.Add(this.label42);
-            this.groupBox2.Controls.Add(this.label43);
+            this.groupBox2.Controls.Add(this.lbInternetPrice);
             this.groupBox2.Controls.Add(this.label41);
-            this.groupBox2.Controls.Add(this.label40);
+            this.groupBox2.Controls.Add(this.lbPhonePrice);
             this.groupBox2.Controls.Add(this.label39);
             this.groupBox2.Controls.Add(this.label38);
             this.groupBox2.Controls.Add(this.label37);
@@ -683,14 +695,14 @@
             this.groupBox2.Controls.Add(this.label34);
             this.groupBox2.Controls.Add(this.label33);
             this.groupBox2.Controls.Add(this.label32);
-            this.groupBox2.Controls.Add(this.label31);
-            this.groupBox2.Controls.Add(this.label30);
-            this.groupBox2.Controls.Add(this.label29);
-            this.groupBox2.Controls.Add(this.label28);
-            this.groupBox2.Controls.Add(this.label27);
-            this.groupBox2.Controls.Add(this.label26);
-            this.groupBox2.Controls.Add(this.label25);
-            this.groupBox2.Controls.Add(this.label24);
+            this.groupBox2.Controls.Add(this.lbElectric);
+            this.groupBox2.Controls.Add(this.lbWater);
+            this.groupBox2.Controls.Add(this.lbInternet);
+            this.groupBox2.Controls.Add(this.lbPhone);
+            this.groupBox2.Controls.Add(this.lbRoomType);
+            this.groupBox2.Controls.Add(this.lbFullname);
+            this.groupBox2.Controls.Add(this.lbIdCard);
+            this.groupBox2.Controls.Add(this.lbDatePay);
             this.groupBox2.Controls.Add(this.label23);
             this.groupBox2.Controls.Add(this.label22);
             this.groupBox2.Controls.Add(this.label21);
@@ -706,17 +718,17 @@
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "ข้อมูลการชำระเงืน";
             // 
-            // label49
+            // lbShowResult
             // 
-            this.label49.BackColor = System.Drawing.Color.Lime;
-            this.label49.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label49.ForeColor = System.Drawing.Color.Red;
-            this.label49.Location = new System.Drawing.Point(87, 336);
-            this.label49.Name = "label49";
-            this.label49.Size = new System.Drawing.Size(249, 42);
-            this.label49.TabIndex = 58;
-            this.label49.Text = "0.00";
-            this.label49.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.lbShowResult.BackColor = System.Drawing.Color.Lime;
+            this.lbShowResult.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbShowResult.ForeColor = System.Drawing.Color.Red;
+            this.lbShowResult.Location = new System.Drawing.Point(87, 336);
+            this.lbShowResult.Name = "lbShowResult";
+            this.lbShowResult.Size = new System.Drawing.Size(249, 42);
+            this.lbShowResult.TabIndex = 58;
+            this.lbShowResult.Text = "0.00";
+            this.lbShowResult.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // label48
             // 
@@ -738,17 +750,17 @@
             this.label46.Text = "บาท";
             this.label46.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
-            // label47
+            // lbElecPrice
             // 
-            this.label47.BackColor = System.Drawing.Color.Lime;
-            this.label47.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label47.ForeColor = System.Drawing.Color.Red;
-            this.label47.Location = new System.Drawing.Point(265, 276);
-            this.label47.Name = "label47";
-            this.label47.Size = new System.Drawing.Size(59, 24);
-            this.label47.TabIndex = 56;
-            this.label47.Text = "0.00";
-            this.label47.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.lbElecPrice.BackColor = System.Drawing.Color.Lime;
+            this.lbElecPrice.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbElecPrice.ForeColor = System.Drawing.Color.Red;
+            this.lbElecPrice.Location = new System.Drawing.Point(265, 276);
+            this.lbElecPrice.Name = "lbElecPrice";
+            this.lbElecPrice.Size = new System.Drawing.Size(59, 24);
+            this.lbElecPrice.TabIndex = 56;
+            this.lbElecPrice.Text = "0.00";
+            this.lbElecPrice.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             // 
             // label44
             // 
@@ -759,17 +771,17 @@
             this.label44.Text = "บาท";
             this.label44.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
-            // label45
+            // lbWaterPrice
             // 
-            this.label45.BackColor = System.Drawing.Color.Lime;
-            this.label45.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label45.ForeColor = System.Drawing.Color.Red;
-            this.label45.Location = new System.Drawing.Point(265, 244);
-            this.label45.Name = "label45";
-            this.label45.Size = new System.Drawing.Size(59, 24);
-            this.label45.TabIndex = 54;
-            this.label45.Text = "0.00";
-            this.label45.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.lbWaterPrice.BackColor = System.Drawing.Color.Lime;
+            this.lbWaterPrice.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbWaterPrice.ForeColor = System.Drawing.Color.Red;
+            this.lbWaterPrice.Location = new System.Drawing.Point(265, 244);
+            this.lbWaterPrice.Name = "lbWaterPrice";
+            this.lbWaterPrice.Size = new System.Drawing.Size(59, 24);
+            this.lbWaterPrice.TabIndex = 54;
+            this.lbWaterPrice.Text = "0.00";
+            this.lbWaterPrice.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             // 
             // label42
             // 
@@ -780,41 +792,43 @@
             this.label42.Text = "บาท";
             this.label42.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
-            // label43
+            // lbInternetPrice
             // 
-            this.label43.BackColor = System.Drawing.Color.Lime;
-            this.label43.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label43.ForeColor = System.Drawing.Color.Red;
-            this.label43.Location = new System.Drawing.Point(265, 209);
-            this.label43.Name = "label43";
-            this.label43.Size = new System.Drawing.Size(59, 24);
-            this.label43.TabIndex = 52;
-            this.label43.Text = "0.00";
-            this.label43.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.lbInternetPrice.BackColor = System.Drawing.Color.Lime;
+            this.lbInternetPrice.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbInternetPrice.ForeColor = System.Drawing.Color.Red;
+            this.lbInternetPrice.Location = new System.Drawing.Point(265, 209);
+            this.lbInternetPrice.Name = "lbInternetPrice";
+            this.lbInternetPrice.Size = new System.Drawing.Size(59, 24);
+            this.lbInternetPrice.TabIndex = 52;
+            this.lbInternetPrice.Text = "0.00";
+            this.lbInternetPrice.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             // 
-            // button2
+            // btCancel
             // 
-            this.button2.Image = global::WindowsFormsApp1.Properties.Resources.cancel;
-            this.button2.Location = new System.Drawing.Point(446, 377);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(68, 65);
-            this.button2.TabIndex = 31;
-            this.button2.Text = "ยกเลิก";
-            this.button2.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.button2.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
-            this.button2.UseVisualStyleBackColor = true;
+            this.btCancel.Image = global::WindowsFormsApp1.Properties.Resources.cancel;
+            this.btCancel.Location = new System.Drawing.Point(446, 377);
+            this.btCancel.Name = "btCancel";
+            this.btCancel.Size = new System.Drawing.Size(68, 65);
+            this.btCancel.TabIndex = 31;
+            this.btCancel.Text = "ยกเลิก";
+            this.btCancel.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.btCancel.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            this.btCancel.UseVisualStyleBackColor = true;
+            this.btCancel.Click += new System.EventHandler(this.btCancel_Click);
             // 
-            // button1
+            // btCal
             // 
-            this.button1.Image = global::WindowsFormsApp1.Properties.Resources.ok;
-            this.button1.Location = new System.Drawing.Point(446, 306);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(68, 65);
-            this.button1.TabIndex = 30;
-            this.button1.Text = "คำนวณ";
-            this.button1.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.button1.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
-            this.button1.UseVisualStyleBackColor = true;
+            this.btCal.Image = global::WindowsFormsApp1.Properties.Resources.ok;
+            this.btCal.Location = new System.Drawing.Point(446, 306);
+            this.btCal.Name = "btCal";
+            this.btCal.Size = new System.Drawing.Size(68, 65);
+            this.btCal.TabIndex = 30;
+            this.btCal.Text = "คำนวณ";
+            this.btCal.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.btCal.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            this.btCal.UseVisualStyleBackColor = true;
+            this.btCal.Click += new System.EventHandler(this.btCal_Click);
             // 
             // FrmRentRoom
             // 
@@ -822,34 +836,35 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1010, 486);
             this.Controls.Add(this.groupBox2);
-            this.Controls.Add(this.button2);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.btCancel);
+            this.Controls.Add(this.btCal);
             this.Controls.Add(this.label15);
             this.Controls.Add(this.label14);
             this.Controls.Add(this.label13);
             this.Controls.Add(this.label12);
-            this.Controls.Add(this.textBox6);
-            this.Controls.Add(this.textBox5);
-            this.Controls.Add(this.textBox4);
-            this.Controls.Add(this.textBox3);
+            this.Controls.Add(this.tbElectric);
+            this.Controls.Add(this.tbWater);
+            this.Controls.Add(this.tbInternet);
+            this.Controls.Add(this.tbPhone);
             this.Controls.Add(this.label11);
             this.Controls.Add(this.label10);
             this.Controls.Add(this.label9);
             this.Controls.Add(this.label8);
-            this.Controls.Add(this.checkBox4);
-            this.Controls.Add(this.checkBox3);
-            this.Controls.Add(this.checkBox2);
-            this.Controls.Add(this.checkBox1);
-            this.Controls.Add(this.comboBox1);
+            this.Controls.Add(this.cbElectric);
+            this.Controls.Add(this.cbWater);
+            this.Controls.Add(this.cbInternet);
+            this.Controls.Add(this.cbPhone);
+            this.Controls.Add(this.cbbRoomType);
             this.Controls.Add(this.label7);
             this.Controls.Add(this.groupBox1);
-            this.Controls.Add(this.dateTimePicker1);
+            this.Controls.Add(this.dtpDatePay);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.MaximizeBox = false;
             this.Name = "FrmRentRoom";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "โปรแกรม Quiz 2";
+            this.Load += new System.EventHandler(this.FrmRentRoom_Load);
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
             this.groupBox2.ResumeLayout(false);
@@ -862,38 +877,38 @@
 
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.DateTimePicker dateTimePicker1;
+        private System.Windows.Forms.DateTimePicker dtpDatePay;
         private System.Windows.Forms.GroupBox groupBox1;
-        private System.Windows.Forms.MaskedTextBox maskedTextBox1;
+        private System.Windows.Forms.MaskedTextBox mtbIdCard;
         private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.RadioButton radioButton3;
-        private System.Windows.Forms.RadioButton radioButton2;
-        private System.Windows.Forms.RadioButton radioButton1;
+        private System.Windows.Forms.RadioButton rdMiss;
+        private System.Windows.Forms.RadioButton rdMrs;
+        private System.Windows.Forms.RadioButton rdMr;
         private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.TextBox tbSurname;
         private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox tbName;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label7;
-        private System.Windows.Forms.ComboBox comboBox1;
-        private System.Windows.Forms.CheckBox checkBox1;
-        private System.Windows.Forms.CheckBox checkBox2;
-        private System.Windows.Forms.CheckBox checkBox3;
-        private System.Windows.Forms.CheckBox checkBox4;
+        private System.Windows.Forms.ComboBox cbbRoomType;
+        private System.Windows.Forms.CheckBox cbPhone;
+        private System.Windows.Forms.CheckBox cbInternet;
+        private System.Windows.Forms.CheckBox cbWater;
+        private System.Windows.Forms.CheckBox cbElectric;
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.Label label9;
         private System.Windows.Forms.Label label10;
         private System.Windows.Forms.Label label11;
-        private System.Windows.Forms.TextBox textBox3;
-        private System.Windows.Forms.TextBox textBox4;
-        private System.Windows.Forms.TextBox textBox5;
-        private System.Windows.Forms.TextBox textBox6;
+        private System.Windows.Forms.TextBox tbPhone;
+        private System.Windows.Forms.TextBox tbInternet;
+        private System.Windows.Forms.TextBox tbWater;
+        private System.Windows.Forms.TextBox tbElectric;
         private System.Windows.Forms.Label label12;
         private System.Windows.Forms.Label label13;
         private System.Windows.Forms.Label label14;
         private System.Windows.Forms.Label label15;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Button btCal;
+        private System.Windows.Forms.Button btCancel;
         private System.Windows.Forms.Label label16;
         private System.Windows.Forms.Label label17;
         private System.Windows.Forms.Label label18;
@@ -902,14 +917,14 @@
         private System.Windows.Forms.Label label21;
         private System.Windows.Forms.Label label22;
         private System.Windows.Forms.Label label23;
-        private System.Windows.Forms.Label label24;
-        private System.Windows.Forms.Label label25;
-        private System.Windows.Forms.Label label26;
-        private System.Windows.Forms.Label label27;
-        private System.Windows.Forms.Label label28;
-        private System.Windows.Forms.Label label29;
-        private System.Windows.Forms.Label label30;
-        private System.Windows.Forms.Label label31;
+        private System.Windows.Forms.Label lbDatePay;
+        private System.Windows.Forms.Label lbIdCard;
+        private System.Windows.Forms.Label lbFullname;
+        private System.Windows.Forms.Label lbRoomType;
+        private System.Windows.Forms.Label lbPhone;
+        private System.Windows.Forms.Label lbInternet;
+        private System.Windows.Forms.Label lbWater;
+        private System.Windows.Forms.Label lbElectric;
         private System.Windows.Forms.Label label32;
         private System.Windows.Forms.Label label33;
         private System.Windows.Forms.Label label34;
@@ -918,17 +933,17 @@
         private System.Windows.Forms.Label label37;
         private System.Windows.Forms.Label label38;
         private System.Windows.Forms.Label label39;
-        private System.Windows.Forms.Label label40;
+        private System.Windows.Forms.Label lbPhonePrice;
         private System.Windows.Forms.Label label41;
         private System.Windows.Forms.GroupBox groupBox2;
-        private System.Windows.Forms.Label label49;
+        private System.Windows.Forms.Label lbShowResult;
         private System.Windows.Forms.Label label48;
         private System.Windows.Forms.Label label46;
-        private System.Windows.Forms.Label label47;
+        private System.Windows.Forms.Label lbElecPrice;
         private System.Windows.Forms.Label label44;
-        private System.Windows.Forms.Label label45;
+        private System.Windows.Forms.Label lbWaterPrice;
         private System.Windows.Forms.Label label42;
-        private System.Windows.Forms.Label label43;
+        private System.Windows.Forms.Label lbInternetPrice;
     }
 }
 
